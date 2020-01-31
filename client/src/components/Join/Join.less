@@ -1,0 +1,25 @@
+.joinOuter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: @dark;
+
+    .joinInner {
+        width: 20%;
+
+        .joinInput {
+            border-radius: 0;
+            padding: 15px 20px;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        height: 100%;
+
+        .joinInner {
+            width: 90%;
+        }
+    }
+}
