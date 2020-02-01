@@ -8,7 +8,7 @@ const RoomMembers = ({ users }) => (
       users
         ? (
           <div>
-            <h3>Chatroom members:</h3>
+            <h3>Room members:</h3>
             <div className="activeContainer">
               <h5>
                 {users.map(({name}) => (

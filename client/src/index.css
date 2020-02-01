@@ -107,15 +107,15 @@
   padding: 0 15px;
   color: #fff;
   display: inline-block;
-  max-width: 80%;
+  word-break: break-word;
 }
 .msgContainer .msgBox.bgLightGreen {
   background: #90ee90;
-  border-radius: 7px 20px 20px 20px;
+  border-radius: 6px 18px 18px 18px;
 }
 .msgContainer .msgBox.bgLightBlue {
   background: #6ea6fa;
-  border-radius: 20px 7px 20px 20px;
+  border-radius: 18px 6px 18px 18px;
 }
 .msgContainer .msgBox .msgText {
   width: 100%;
@@ -126,6 +126,7 @@
 .msgContainer .msgSender {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #828282;
+  font-size: 0.9rem;
   letter-spacing: 0.3px;
   margin-top: 0;
 }
@@ -134,6 +135,10 @@
 }
 .msgContainer .msgSender.pl-10 {
   padding-left: 10px;
+}
+.msgContainer .msgSender.sendingTime {
+  color: #1a1a1d;
+  font-style: italic;
 }
 .msgContainer.justifyEnd {
   justify-content: flex-end;
@@ -146,7 +151,7 @@
   flex-direction: column;
   margin-left: 20px;
   color: #fff;
-  height: 60%;
+  height: 80%;
   justify-content: space-between;
 }
 .roomMembers h3 {
@@ -187,7 +192,7 @@
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979FF;
+  background: #04ad37;
   padding: 20px;
   border-radius: 5px;
   display: inline-block;

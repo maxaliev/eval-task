@@ -7,6 +7,7 @@ const InputBar = ( { msg, setMsg, sendMsg } ) => (
             className='input'
             type='text'
             value={msg}
+            placeholder='Type in something'
             onChange={ev => {
                     setMsg(ev.target.value)
                     const scrlDown = document.querySelector('.scrlToBtm.msgs')
